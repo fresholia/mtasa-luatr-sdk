@@ -1,4 +1,4 @@
-client_functions = {
+local client_functions = {
     ["engineRequestModel"] = "",
     ["engineLoadIFP"] = "",
     ["getLowLODElement"] = "",

@@ -1,4 +1,4 @@
-server_functions = {
+local server_functions = {
     ["getLatentEventStatus"] = "",
     ["setElementModel"] = "",
     ["isElement"] = "",
@@ -854,3 +854,5 @@ server_functions = {
     ["error"] = "",
     ["getFarClipDistance"] = "",
 }
+
+_G["server-functions"] = function() return server_functions end
