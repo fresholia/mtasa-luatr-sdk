@@ -1,8 +1,7 @@
 <meta>
     <script src="Shared/init-client.lua" type="shared" />
     <script src="Shared/init-server.lua" type="shared" />
-    
+
     <script src="Server/init.lua" type="server" />
     <script src="Client/init.lua" type="client" />
-    <min_mta_version server="1.5.7-9.20307" client="1.5.7-9.20307"></min_mta_version>
 </meta>
