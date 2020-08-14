@@ -1,5 +1,6 @@
 <meta>
-    <script src="Shared/list.lua" type="shared" />
+    <script src="Shared/init-client.lua" type="shared" />
+    <script src="Shared/init-server.lua" type="shared" />
 
     <script src="Server/init.lua" type="server" />
     <script src="Client/init.lua" type="client" />
