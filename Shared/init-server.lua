@@ -855,4 +855,4 @@ local server_functions = {
     ["getFarClipDistance"] = "",
 }
 
-_G["server-functions"] = function() return server_functions end
+_G["server-functions"] = function() CLuaFunctions = server_functions; return true; end

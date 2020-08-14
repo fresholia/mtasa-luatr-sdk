@@ -15,7 +15,7 @@ local client_functions = {
     ["setWaveHeight"] = "",
     ["guiGetFont"] = "",
     ["guiSetFont"] = "",
-    ["outputChatBox"] = "",
+    ["outputChatBox"] = "yaziYazdir",
     ["setLowLODElement"] = "",
     ["guiGetSize"] = "",
     ["setLightRadius"] = "",
@@ -1110,4 +1110,4 @@ local client_functions = {
     ["getRemoteRequestInfo"] = "",
 }
 
-_G["client-functions"] = function() return client_functions end
+_G["client-functions"] = function() CLuaFunctions = client_functions; return true; end
