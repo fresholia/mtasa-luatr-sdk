@@ -4,4 +4,4 @@ for key, new in pairs(CLuaFunctions) do
     _G[new] = _G[key]
 end
 
-yaziEkle("test")
+import "client-example"
